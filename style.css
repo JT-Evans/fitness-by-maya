@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom right, #ffe9ec, #dfe7fd);
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+  background: linear-gradient(to bottom right, #ffd6dd, #e5f0ff);
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ff8aa1;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 10px;
+}
+
+.bio, .links, .art-preview {
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #ff8aa1;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ff6d89;
+}
+
+.art-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.art-gallery img {
+  width: 120px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.shop-link a {
+  color: #555;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #999;
+}
